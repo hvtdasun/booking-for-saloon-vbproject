@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC3DBD5A-C624-461D-AA8F-1F30834F2988}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>bookingtable</RootNamespace>
+    <AssemblyName>bookingtable</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>bookingtable.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>bookingtable.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addcustomer.Designer.vb">
+      <DependentUpon>Addcustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Addcustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment_tabelDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Appointment_tabelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment_tabelDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Appointment_tabelDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment_tabelDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Appointment_tabelDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment_tabelDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Appointment_tabelDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment_tabelDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Appointment_tabelDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmappointment.Designer.vb">
+      <DependentUpon>frmappointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmappointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreport.Designer.vb">
+      <DependentUpon>frmreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_show_customer_service.Designer.vb">
+      <DependentUpon>frm_show_customer_service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_show_customer_service.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_in.Designer.vb">
+      <DependentUpon>Log_in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Log_in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="services.Designer.vb">
+      <DependentUpon>services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="services.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sihina_Saloon_Admin.Designer.vb">
+      <DependentUpon>Sihina_Saloon_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sihina_Saloon_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sihina_Saloon_Employee.Designer.vb">
+      <DependentUpon>Sihina_Saloon_Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sihina_Saloon_Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Addcustomer.resx">
+      <DependentUpon>Addcustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmappointment.resx">
+      <DependentUpon>frmappointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreport.resx">
+      <DependentUpon>frmreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_show_customer_service.resx">
+      <DependentUpon>frm_show_customer_service.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_in.resx">
+      <DependentUpon>Log_in.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="services.resx">
+      <DependentUpon>services.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sihina_Saloon_Admin.resx">
+      <DependentUpon>Sihina_Saloon_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sihina_Saloon_Employee.resx">
+      <DependentUpon>Sihina_Saloon_Employee.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Appointment_tabelDataSet.xsc">
+      <DependentUpon>Appointment_tabelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Appointment_tabelDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Appointment_tabelDataSet.xss">
+      <DependentUpon>Appointment_tabelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet1.xsc">
+      <DependentUpon>Appointment_tabelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Appointment_tabelDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Appointment_tabelDataSet1.xss">
+      <DependentUpon>Appointment_tabelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet2.xsc">
+      <DependentUpon>Appointment_tabelDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Appointment_tabelDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Appointment_tabelDataSet2.xss">
+      <DependentUpon>Appointment_tabelDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet3.xsc">
+      <DependentUpon>Appointment_tabelDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Appointment_tabelDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Appointment_tabelDataSet3.xss">
+      <DependentUpon>Appointment_tabelDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet4.xsc">
+      <DependentUpon>Appointment_tabelDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Appointment_tabelDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Appointment_tabelDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Appointment_tabelDataSet4.xss">
+      <DependentUpon>Appointment_tabelDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\592097.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngaaa.com-6640892.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp9166771-dark-gold-4k-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp2035457-salon-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peakpx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-customer-icon-19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r8ank7bugsd76um9kb2pe611r7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3002590-brushes_make-up_makeup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Photo _ Makeup products and striped cosmetic bag on dusty dark background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

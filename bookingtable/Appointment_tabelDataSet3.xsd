@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Appointment_tabelDataSet3" targetNamespace="http://tempuri.org/Appointment_tabelDataSet3.xsd" xmlns:mstns="http://tempuri.org/Appointment_tabelDataSet3.xsd" xmlns="http://tempuri.org/Appointment_tabelDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Appointment_tabelConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Appointment_tabelConnectionString2 (MySettings)" PropertyReference="ApplicationSettings.bookingtable.My.MySettings.GlobalReference.Default.Appointment_tabelConnectionString2" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblAppointmentTableAdapter" GeneratorDataComponentClassName="tblAppointmentTableAdapter" Name="tblAppointment" UserDataComponentName="tblAppointmentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Appointment_tabelConnectionString2 (MySettings)" DbObjectName="tblAppointment" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT cusname, appointment_date, appointment_time FROM tblAppointment</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cusname" DataSetColumn="cusname" />
+              <Mapping SourceColumn="appointment_date" DataSetColumn="appointment_date" />
+              <Mapping SourceColumn="appointment_time" DataSetColumn="appointment_time" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Appointment_tabelDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Appointment_tabelDataSet3" msprop:Generator_UserDSName="Appointment_tabelDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblAppointment" msprop:Generator_TableClassName="tblAppointmentDataTable" msprop:Generator_TableVarName="tabletblAppointment" msprop:Generator_TablePropName="tblAppointment" msprop:Generator_RowDeletingName="tblAppointmentRowDeleting" msprop:Generator_RowChangingName="tblAppointmentRowChanging" msprop:Generator_RowEvHandlerName="tblAppointmentRowChangeEventHandler" msprop:Generator_RowDeletedName="tblAppointmentRowDeleted" msprop:Generator_UserTableName="tblAppointment" msprop:Generator_RowChangedName="tblAppointmentRowChanged" msprop:Generator_RowEvArgName="tblAppointmentRowChangeEvent" msprop:Generator_RowClassName="tblAppointmentRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cusname" msprop:Generator_ColumnVarNameInTable="columncusname" msprop:Generator_ColumnPropNameInRow="cusname" msprop:Generator_ColumnPropNameInTable="cusnameColumn" msprop:Generator_UserColumnName="cusname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="appointment_date" msprop:Generator_ColumnVarNameInTable="columnappointment_date" msprop:Generator_ColumnPropNameInRow="appointment_date" msprop:Generator_ColumnPropNameInTable="appointment_dateColumn" msprop:Generator_UserColumnName="appointment_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="appointment_time" msprop:Generator_ColumnVarNameInTable="columnappointment_time" msprop:Generator_ColumnPropNameInRow="appointment_time" msprop:Generator_ColumnPropNameInTable="appointment_timeColumn" msprop:Generator_UserColumnName="appointment_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

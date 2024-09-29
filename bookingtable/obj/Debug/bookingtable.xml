@@ -1,0 +1,512 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bookingtable
+</name>
+</assembly>
+<members>
+<member name="T:bookingtable.Appointment_tabelDataSet1.tblAppointmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblappointment_servicesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblcustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblemployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblserviceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblAppointmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblappointment_servicesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblcustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblemployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblserviceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblAppointmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblappointment_servicesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblcustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblemployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1.tblserviceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.tblAppointmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.tblappointment_servicesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.tblcustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.tblemployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.tblserviceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(bookingtable.Appointment_tabelDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(bookingtable.Appointment_tabelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(bookingtable.Appointment_tabelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.UpdateAll(bookingtable.Appointment_tabelDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblAppointmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblappointment_servicesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblcustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblserviceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblAppointmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblappointment_servicesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblcustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblserviceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblAppointmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblappointment_servicesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblcustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4.tblserviceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.tblAppointmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.tblappointment_servicesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.tblcustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.tblserviceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(bookingtable.Appointment_tabelDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(bookingtable.Appointment_tabelDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(bookingtable.Appointment_tabelDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.UpdateAll(bookingtable.Appointment_tabelDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3.tblAppointmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3.tblAppointmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3.tblAppointmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3TableAdapters.tblAppointmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(bookingtable.Appointment_tabelDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(bookingtable.Appointment_tabelDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(bookingtable.Appointment_tabelDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.UpdateAll(bookingtable.Appointment_tabelDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources._11111">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources._3002590_brushes_make_up_makeup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources._592097">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.new_customer_icon_19">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.peakpx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.pngaaa_com_6640892">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.pngegg__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.pngwing_com">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.pngwing1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.Premium_Photo___Makeup_products_and_striped_cosmetic_bag_on_dusty_dark_background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.r8ank7bugsd76um9kb2pe611r7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.wp2035457_salon_wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bookingtable.My.Resources.Resources.wp9166771_dark_gold_4k_wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:bookingtable.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2.tblAppointmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2.tblAppointmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2.tblAppointmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2TableAdapters.tblAppointmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(bookingtable.Appointment_tabelDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(bookingtable.Appointment_tabelDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(bookingtable.Appointment_tabelDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.UpdateAll(bookingtable.Appointment_tabelDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblAppointmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblappointment_servicesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblcustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblemployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblserviceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblAppointmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblappointment_servicesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblcustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblemployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblserviceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblAppointmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblappointment_servicesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblcustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblemployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet.tblserviceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.tblAppointmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.tblappointment_servicesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.tblcustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.tblemployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.tblserviceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bookingtable.Appointment_tabelDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bookingtable.Appointment_tabelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bookingtable.Appointment_tabelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.UpdateAll(bookingtable.Appointment_tabelDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:bookingtable.Appointment_tabelDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
